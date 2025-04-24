@@ -1,0 +1,196 @@
+{
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 1000,
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "files.exclude": {
+    "**/.git": true,
+    "**/.DS_Store": true,
+    "**/node_modules": true,
+    "**/dist": true,
+    "**/build": true,
+    "**/*.o": true,
+    "**/*.class": true,
+    "**/*.sql~": true
+  },
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/dist": true,
+    "**/build": true,
+    "**/*.o": true,
+    "**/*.class": true,
+    "**/*.sql~": true
+  },
+  "telemetry.telemetryLevel": "error",
+  "update.mode": "manual",
+  "extensions.autoUpdate": true,
+  "security.workspace.trust.untrustedFiles": "prompt",
+  "editor.fontFamily": "'JetBrains Mono', 'Fira Code', Consolas, 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 14,
+  "editor.lineHeight": 22,
+  "editor.tabSize": 4,
+  "editor.insertSpaces": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.minimap.enabled": false,
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.wordWrap": "on",
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+  "editor.guides.indentation": true,
+  "editor.renderWhitespace": "selection",
+  "editor.renderControlCharacters": true,
+  "editor.smoothScrolling": true,
+  "editor.stickyScroll.enabled": true,
+  "editor.unicodeHighlight.ambiguousCharacters": true,
+  "editor.unicodeHighlight.invisibleCharacters": true,
+  "editor.foldingStrategy": "indentation",
+  "editor.occurrencesHighlight": "singleFile",
+  "editor.scrollBeyondLastLine": false,
+  "editor.inlineSuggest.enabled": true,
+  "editor.quickSuggestions": {
+    "other": "on",
+    "comments": false,
+    "strings": "on"
+  },
+  "editor.parameterHints.enabled": true,
+  "editor.suggestSelection": "first",
+  "editor.hover.enabled": true,
+  "editor.hover.delay": 200,
+  "editor.linkedEditing": true,
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "explicit",
+    "source.fixAll": "explicit"
+  },
+  "editor.detectIndentation": false,
+  "editor.largeFileOptimizations": true,
+  "editor.overviewRulerLanes": 0,
+  "editor.tokenColorCustomizations": {
+    "[Poimandres]": {
+      "textMateRules": [
+        {
+          "scope": "source.nasm",
+          "settings": {
+            "foreground": "#E4F0FB"
+          }
+        }
+      ]
+    }
+  },
+  "files.associations": {
+    "*.asm": "nasm",
+    "*.s": "nasm",
+    "*.py": "python",
+    "*.cpp": "cpp",
+    "*.java": "java",
+    "*.sql": "sql"
+  },
+  "terminal.integrated.fontFamily": "'JetBrains Mono', 'Fira Code', Consolas, 'Courier New', monospace",
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.cursorStyle": "block",
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "terminal.integrated.gpuAcceleration": "auto",
+  "terminal.integrated.shellIntegration.enabled": true,
+  "terminal.integrated.tabs.enabled": true,
+  "terminal.integrated.scrollback": 10000,
+  "terminal.integrated.copyOnSelection": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "poimandres",
+  "workbench.preferredDarkColorTheme": "Poimandres",
+  "workbench.preferredLightColorTheme": "Default Light Modern",
+  "workbench.editor.enablePreview": false,
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.editor.tabSizing": "shrink",
+  "workbench.editor.highlightModifiedTabs": true,
+  "workbench.statusBar.visible": true,
+  "workbench.sideBar.location": "left",
+  "workbench.editor.untitled.hint": "hidden",
+  "workbench.list.smoothScrolling": true,
+  "workbench.editor.decorations.badges": true,
+  "workbench.editor.decorations.colors": true,
+  "workbench.editor.labelFormat": "short",
+  "workbench.editor.openSideBySideDirection": "down",
+  "workbench.editor.scrollToSwitchTabs": true,
+  "workbench.settings.editor": "json",
+  "workbench.settings.useSplitJSON": true,
+  "workbench.colorCustomizations": {
+    "[Poimandres]": {
+      "editor.background": "#1B1E28CC",
+      "terminal.ansiBrightCyan": "#A6ACCD",
+      "terminal.ansiBrightMagenta": "#D6B8D6"
+    }
+  },
+  "window.titleBarStyle": "custom",
+  "window.zoomLevel": 1,
+  "breadcrumbs.enabled": true,
+  "explorer.compactFolders": false,
+  "explorer.confirmDelete": false,
+  "explorer.autoReveal": false,
+  "glassit.alpha": 180,
+  "debug.console.fontSize": 14,
+  "debug.allowBreakpointsEverywhere": true,
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true,
+  "gitlens.hovers.currentLine.over": "line",
+  "gitlens.codeLens.enabled": false,
+  "gitlens.currentLine.enabled": true,
+  "gitlens.statusBar.enabled": true,
+  "C_Cpp.clang_format_style": "LLVM",
+  "C_Cpp.default.cppStandard": "c++17",
+  "C_Cpp.default.cStandard": "c11",
+  "C_Cpp.intelliSenseEngine": "default",
+  "C_Cpp.errorSquiggles": "enabled",
+  "C_Cpp.default.includePath": [
+    "${workspaceFolder}/**",
+    "/usr/include",
+    "/usr/local/include"
+  ],
+  "python.formatting.provider": "black",
+  "python.linting.enabled": true,
+  "python.linting.pylintEnabled": true,
+  "python.analysis.typeCheckingMode": "basic",
+  "python.terminal.activateEnvironment": true,
+  "java.configuration.updateBuildConfiguration": "automatic",
+  "java.format.settings.url": "https://raw.githubusercontent.com/google/styleguide/gh-pages/eclipse-java-google-style.xml",
+  "java.debug.settings.enableRunDebug": true,
+  "java.project.sourcePaths": ["src"],
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.tabSize": 4
+  },
+  "[cpp]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  },
+  "[java]": {
+    "editor.defaultFormatter": "redhat.java"
+  },
+  "[nasm]": {
+    "editor.defaultFormatter": "ronaldsophia.nasm-formatter"
+  },
+  "[sql]": {
+    "editor.defaultFormatter": "mtxr.sqltools",
+    "editor.tabSize": 2
+  },
+  "sqltools.connections": [],
+  "sqltools.format": {
+    "language": "sql",
+    "linesBetweenQueries": 1,
+    "reservedWordCase": "upper"
+  },
+  "sqltools.autoConnect": false,
+  "sqltools.useNodeRuntime": false,
+  "sqltools.results.maxRows": 1000,
+  "perforce.client": "",
+  "perforce.user": "",
+  "perforce.port": "",
+  "perforce.addOnSave": false,
+  "perforce.editOnFileOpen": true,
+  "perforce.deleteOnFileDelete": true,
+  "perforce.autoResolve": false,
+  "perforce.syncOnFileSave": false,
+  "window.newWindowProfile": "Default"
+}
