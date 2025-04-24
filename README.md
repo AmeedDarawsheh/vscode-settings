@@ -1,1 +1,1 @@
-# vscode-settings
+## Ameed's VS Code Settings
